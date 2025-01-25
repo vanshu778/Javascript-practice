@@ -153,11 +153,23 @@ console.log(parseInt("1.9"));
 // 1 (decimal part is truncated)
 
 //! When we will not get an Output
-console.log(parseInt("&123"));
-console.log(parseInt("-123"));
-console.log(parseInt("xyz"));
+// console.log(parseInt("&123"));
+// console.log(parseInt("-123"));
+// console.log(parseInt("xyz"));
 // NaN (input can't be converted to an integer)
 
 //? What is the purpose of the NaN value in JavaScript❓
+//? NaN stands for "Not a Number" and is returned when a mathematical operation doesn't yield a valid number.
+//? Also, to check whether a value is number or not we can use isNaN() function.
 
+// console.log(isNaN("vanshika"));
+// console.log(parseInt("xyz"));
+// console.log(parseInt("@#$"));
+
+// //! NaN === NaN, Why is it false ❓
+// if (NaN == NaN) {
+//   console.log("both are equal ");
+// } else {
+//   console.log("not equal");
+// }
 //* ========== parseInt & parseFloat End Section ==========
