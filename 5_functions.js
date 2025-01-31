@@ -164,8 +164,59 @@
 //! Question 1: Calculator Function
 //! Write a JavaScript function calculator that takes two numbers and an operator as parameters and returns the result of the operation. The function should support addition, subtraction, multiplication, and division.
 
+// function calculator(a, b, operator){
+//     let result;
+//     switch(operator){
+//         case "+":
+//             result= a+b;
+//             return result;
+        
+//         case "-":
+//             result = a-b;
+//             return result;
+
+//         case "/":
+//             result = a/b;
+//             return result;
+
+//     default:
+//         return "no operator found"; 
+//     }
+// }
+// console.log(calculator(5,2,"+"));
+// console.log(calculator(5,2,"-"));
+// console.log(calculator(5,0,"/"));
+
 //! Reverse a String:
 //! Write a function to reverse a given string without using built-in reverse methods.
 
+// const isReverse = (str) => {
+//     let reverse = "";
+//     for (let char = str.length - 1; char >= 0; char--) {
+//       reverse = reverse + str[char];
+//     }
+//     return reverse;
+//   };
+  
+//   console.log(isReverse("vanshika thesiya"));
+
+  
 //! Palindrome Check:
 //! Create a function to determine if a given string is a palindrome (reads the same backward as forward).
+
+// const isPalindrome = (str) => {
+//     let reverse = "";
+//     for (let char = str.length - 1; char >= 0; char--) {
+//       reverse = reverse + str[char];
+//     }
+//     //   if (str === reverse) {
+//     //     return true;
+//     //   } else {
+//     //     return false;
+//     //   }
+  
+//     return str === reverse ? true : false;
+//   };
+  
+//   console.log(isPalindrome("level"));
+  
