@@ -130,6 +130,21 @@
 
 //! Write a function to find sum of two numbers? What if during function call user only passed one argument?
 
+// function sum(a,b){
+//     return a+b;
+// }
+// console.log(sum(5));   //output:NaN
+
+// function sum(a,b=10){
+//     return a+b;
+// }
+// console.log(sum(5));  // output: 15
+
+// function sum(a,b=10){
+//     return a+b;
+// }
+// console.log(sum(5,15));  //output: 20
+
 //* ==========================================
 //*  FAT ARROW FUNCTION
 //* =========================================
@@ -141,6 +156,13 @@
 //      console.log(result);
 // }
 
+// sum(5,5)
+
+
+// const sum = (a,b) => {
+//     let result = `The sum of ${a} and ${b} is ${a + b}.`;
+//      console.log(result);
+// }
 // sum(5,5)
 
 //! How to convert the same in fat arrow function
