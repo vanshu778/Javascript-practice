@@ -153,9 +153,10 @@
 //   // code to be executed
 // })();
 
-(function (a,b){
-    console.log(a+b);
-})(5,10);
+// var result = (function (a,b){
+//     console.log(a+b);
+// })(5,10);
+
 // !Practice Time ( IIFE with Parameters)
 
 //? Interview Questions
