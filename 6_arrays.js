@@ -363,7 +363,7 @@ const months = ["Jan", "march", "April", "June", "July"];
 //! 2: Using the map method, write a function that takes an array of numbers and returns a new array where each number is squared, but only if it's an even number.
 
 // Original array of numbers
-const numbers = [1, 2, 3, 4, 5];
+// const numbers = [1, 2, 3, 4, 5];
 
 // const result = numbers
 //   .map((curElem) => {
